@@ -1,0 +1,31 @@
+body{
+    background-color: grey;
+}
+
+*{
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+div.image{
+    margin-left:43% ;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p,ol,ul{
+    font-size: 18px;
+    padding: 5px;
+}
