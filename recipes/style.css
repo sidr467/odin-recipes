@@ -1,31 +1,38 @@
-body{
+body {
     background-color: grey;
 }
 
-*{
+* {
     margin: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.heading{
+.heading {
     background-color: black;
     color: azure;
     text-align: center;
 }
 
-div.image{
-    margin-left:43% ;
+div.image {
+    margin-left: 43%;
     margin-bottom: 20px;
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: bolder;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-p,ol,ul{
+p, ol, ul {
     font-size: 18px;
     padding: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.image {
+        margin-left: 0; 
+    }
 }

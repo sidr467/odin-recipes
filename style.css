@@ -1,36 +1,43 @@
-body{
+body {
     background-color: grey;
 }
-*{
+
+* {
     margin: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.heading{
+.heading {
     background-color: black;
     color: azure;
     text-align: center;
 }
 
-div.list{
+div.list {
     margin: auto;
-    width: 50%;
+    width: 80%; 
+    max-width: 600px; 
     padding: 20px;
 }
 
-li{
+li {
     padding: 5px;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
     font-size: 20px;
+    display: block; 
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
 
-
+@media only screen and (max-width: 600px) {
+    div.list {
+        width: 90%;
+    }
+}
